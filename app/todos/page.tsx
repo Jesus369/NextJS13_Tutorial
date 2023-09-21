@@ -1,8 +1,13 @@
 import React from "react"
+import TodosList from "./TodosList"
 
 function Todos() {
     return (
-        <div>This is the ToDos page</div>
+        <div>
+            {/* @ts-ignore */}
+            <TodosList />
+            This is the todo page
+            </div>
     )
 }
 
